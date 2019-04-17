@@ -1,0 +1,100 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+body {
+  padding-top: 100px;
+}
+h1{
+    color: #DE4757;
+}
+.container-2{
+  padding-top: 20px;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 25em;
+
+}
+.card {
+    display: inline-block;
+    width: 15em;
+}
+.rigt{
+float: right;
+	color: #FEC004;
+	//font-size: 20px;
+}
+
+
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+/* Scroll Personalizado */
+
+body::-webkit-scrollbar {
+	width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: #414141;
+}
+
+
+.scrolling-wrapper::-webkit-scrollbar {
+    width: 0.1em;
+    height: 0.4em;
+
+}
+
+.scrolling-wrapper::-webkit-scrollbar-thumb {
+	background: #C8C8C8;
+	border-radius: 20px;
+
+
+}
+ul {
+    cursor: pointer;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li {
+    height: 2em;
+
+}
+
+.span {
+    display: block;
+    opacity: 0;
+    height: 1.7em;
+    margin: -1.6em ;
+    padding: -3px;
+    margin-left: 8em;
+    padding-right: 1em;
+}
+
+li:hover span {
+
+    opacity: 1.0;
+
+}
+.on{
+    color:red;
+    background:red;
+}
